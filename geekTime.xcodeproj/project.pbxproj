@@ -17,6 +17,9 @@
 		3587882D23A383C500BA3CCD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587882C23A383C500BA3CCD /* Product.swift */; };
 		3587882F23A3848600BA3CCD /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587882E23A3848600BA3CCD /* Deal.swift */; };
 		3587883123A384BF00BA3CCD /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3587883023A384BF00BA3CCD /* FakeData.swift */; };
+		3590F4A523ACC2C100A22340 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590F4A423ACC2C100A22340 /* HomeViewController.swift */; };
+		3590F4A723ACC2D700A22340 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590F4A623ACC2D700A22340 /* MineViewController.swift */; };
+		3590F4AA23ACCBAC00A22340 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3590F4A923ACCBAC00A22340 /* BannerView.swift */; };
 		35CA3BF223AB57BE00EFEAE4 /* icon_cal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CA3BDF23AB57BE00EFEAE4 /* icon_cal@2x.png */; };
 		35CA3BF323AB57BE00EFEAE4 /* icon_live@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CA3BE023AB57BE00EFEAE4 /* icon_live@2x.png */; };
 		35CA3BF423AB57BE00EFEAE4 /* home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CA3BE123AB57BE00EFEAE4 /* home_selected@2x.png */; };
@@ -55,6 +58,9 @@
 		3587882C23A383C500BA3CCD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3587882E23A3848600BA3CCD /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
 		3587883023A384BF00BA3CCD /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		3590F4A423ACC2C100A22340 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3590F4A623ACC2D700A22340 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		3590F4A923ACCBAC00A22340 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		35CA3BDF23AB57BE00EFEAE4 /* icon_cal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cal@2x.png"; sourceTree = "<group>"; };
 		35CA3BE023AB57BE00EFEAE4 /* icon_live@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_live@2x.png"; sourceTree = "<group>"; };
 		35CA3BE123AB57BE00EFEAE4 /* home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_selected@2x.png"; sourceTree = "<group>"; };
@@ -115,6 +121,7 @@
 		3587880823A372DB00BA3CCD /* geekTime */ = {
 			isa = PBXGroup;
 			children = (
+				3590F4A823ACCB8500A22340 /* Component */,
 				35CA3C0523AB5A9500EFEAE4 /* Extensions */,
 				3587882B23A383A700BA3CCD /* Model */,
 				3587882923A3835F00BA3CCD /* R.generated.swift */,
@@ -128,6 +135,8 @@
 				3587881723A372DC00BA3CCD /* Info.plist */,
 				35CA3C0823AB639500EFEAE4 /* BaseViewController.swift */,
 				35CA3C0A23AB657200EFEAE4 /* LoginViewController.swift */,
+				3590F4A423ACC2C100A22340 /* HomeViewController.swift */,
+				3590F4A623ACC2D700A22340 /* MineViewController.swift */,
 			);
 			path = geekTime;
 			sourceTree = "<group>";
@@ -166,6 +175,14 @@
 				3587883023A384BF00BA3CCD /* FakeData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3590F4A823ACCB8500A22340 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3590F4A923ACCBAC00A22340 /* BannerView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		35CA3C0523AB5A9500EFEAE4 /* Extensions */ = {
@@ -355,9 +372,12 @@
 				3587882F23A3848600BA3CCD /* Deal.swift in Sources */,
 				35CA3C0923AB639500EFEAE4 /* BaseViewController.swift in Sources */,
 				3587880C23A372DB00BA3CCD /* SceneDelegate.swift in Sources */,
+				3590F4A523ACC2C100A22340 /* HomeViewController.swift in Sources */,
 				3587882A23A3835F00BA3CCD /* R.generated.swift in Sources */,
 				35CA3C0B23AB657200EFEAE4 /* LoginViewController.swift in Sources */,
 				3587883123A384BF00BA3CCD /* FakeData.swift in Sources */,
+				3590F4AA23ACCBAC00A22340 /* BannerView.swift in Sources */,
+				3590F4A723ACC2D700A22340 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
